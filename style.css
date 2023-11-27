@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.navbar {
+    
+    box-shadow: -2px 9px 39px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 9px 39px -5px rgba(0, 0, 0, 0.76);
+    -moz-box-shadow: -2px 9px 39px -5px rgba(0,0,0,0.75);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    
+        
+}
+.conteudo-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+}
+.Menu{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-top: 0.5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.img_principal{
+    
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.loja_virtual{
+
+    display: block;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #c1a976;
+    color: #000;
+    padding: 1em;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+main{
+
+    background-color: rgb(0, 0, 0);
+
+}
+
+.Prato{
+    margin-left: 140px;
+}
+
+.Molho-Assado{
+    margin-left: 64px;
+    margin-top: 20px;
+}
+
+.produtos{
+    margin-top: 64px;   
+    background-color: #E9E5AE;
+    padding: 24px;
+    border-radius: 12px;
+    
+}
+
+.Caponata{
+    margin-left: 64px;
+}
+
+.Tomate-Confit{
+    margin-left: 64px;
+}
+
+.Molho-Assado, .Caponata, .Tomate-Confit{
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.are__formulario {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.imagem__login {
+    max-width: 500px;
+    height: auto;
+}
+form {
+    width: 350px;
+    background-color: var(--cor-branco);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+input[type="email"]:focus, input[type="password"]:focus {
+    border-color: var(--cor-botao);
+    border-width: 2px;
+}
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #1e90ff, #4169e1);
+    outline: none;
+    box-sizing: border-box;
+}
+button:hover {
+    background-image: linear-gradient(to right, #3cb0fd, #1c86ee);
+}
+.esqueceu_senha {
+    font-family: var(--texto);
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    background-image: linear-gradient(to right, #1e90ff, #4169e1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+label {
+    font-family: var(--texto);
+}
+.titulo_form {
+    font-family: var(--texto);
+    font-weight: 900;
+}
+.texto_form {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-family: var(--texto);
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    color: black;
+}
+
+@media (max-width: 900px){
+   .are__formulario {
+    flex-direction: column;
+   } 
+   .imagem__login {
+    margin-top: 64px;
+   }
+}
+
+
+.imagem__login {
+    max-width: 500px;
+    height: auto;
+}
+form {
+    width: 350px;
+    background-color: var(--cor-branco);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+input[type="email"]:focus, input[type="password"]:focus {
+    border-color: var(--cor-botao);
+    border-width: 2px;
+}
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    color: var(--cor-branco);
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #1e90ff, #4169e1);
+    outline: none;
+    box-sizing: border-box;
+}
+button:hover {
+    background-image: linear-gradient(to right, #3cb0fd, #1c86ee);
+}
+.esqueceu_senha {
+    font-family: var(--texto);
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    background-image: linear-gradient(to right, #1e90ff, #4169e1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+label {
+    font-family: var(--texto);
+}
+.titulo_form {
+    font-family: var(--texto);
+    font-weight: 900;
+}
+.texto_form {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-family: var(--texto);
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    color: black;
+}
+
+@media (max-width: 900px){
+   .are__formulario {
+    flex-direction: column;
+   } 
+   .imagem__login {
+    margin-top: 64px;
+   }
+}
+
+
+
+.Login{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+
+}
+
+
+
+form{
+    background-color: #c1a976;
+
+    
+
+}
